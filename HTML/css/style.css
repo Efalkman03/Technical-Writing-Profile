@@ -102,6 +102,12 @@
     margin-bottom: 20px;
   }
 
+.hero .btn {
+    display: grid;
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
   .hero .resume-text {
     width: 100%;
     margin-bottom: 20px;
@@ -113,6 +119,12 @@
     margin-left: 20px;
     margin-bottom: 20px;
     width: 45%;
+  }
+
+@media screen and (max-width: 900px) {
+    .hero .hero-text{
+      width: 100%;
+    }
   }
 
   /*Footer*/
