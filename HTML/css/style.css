@@ -238,6 +238,7 @@
   .btn-primary {
     background: var(--primary-color);
     color: #fff;
+    float: left;
   }
   
   .btn-dark {
