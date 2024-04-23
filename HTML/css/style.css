@@ -331,7 +331,7 @@
     color: #fff;
   }
   
-  /* Hamburger Button */
+/* Hamburger Button */
   .hamburger-button {
     display: none;
     background: none;
@@ -346,6 +346,10 @@
     height: 3px;
     background: #333;
     margin: 6px 0;
+  }
+
+  .navbar .hamburger-button {
+    display: block;
   }
   
   /* Mobile Menu */
@@ -379,7 +383,37 @@
     transition: 0.3s;
   }
 
-  
+  @media (max-width:960px) {
+ .text-xxl {
+  font: size 2.5rem;
+ }
+ }
+
+@media (min-width:670px) {
+  .navbar .hamburger-button {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
+
+  @media(max-width:670px) {
+.navbar .main-menu {
+  display:none;
+}
+
+.hero .hero-content, .hero .hero-text {
+  width:100%;
+  text-align:center;
+}
+  }
+
+  @media(max-width:500px) {
+.navbar .main-menu {
+  display:none;
+}
+  }
     /* Text */
     .text-xl {
       font-size: 1.9rem;
