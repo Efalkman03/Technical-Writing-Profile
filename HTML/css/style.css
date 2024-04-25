@@ -406,13 +406,16 @@
 
 .hero .hero-content, .hero .hero-text {
   width:100%;
-  text-align:center;
 }
   }
 
   @media(max-width:500px) {
 .navbar .main-menu {
   display:none;
+}
+.resume-container {
+  width: 300px;
+  height:auto;
 }
   }
     /* Text */
